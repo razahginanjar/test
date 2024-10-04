@@ -55,15 +55,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         //question-no-1
-        System.out.println("Enter integers separated by spaces:");
+        System.out.println(" Input one line of words (S):");
         String input = scanner.nextLine();
         rearrangeWord(input);
-        String string2 = scanner.nextLine();
-        rearrangeWord(string2);
 
         //question-no-2
+        System.out.println("Enter integers separated by spaces:");
         String string3 = scanner.nextLine();
-        int families = 5;
+        System.out.println("Enter Numbers Of Families: ");
+        int families = scanner.nextInt();
         SecondQuestion.secondQues(families, string3);
     }
 }
